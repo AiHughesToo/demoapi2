@@ -6,7 +6,7 @@ class EmployeesController < ApplicationController
     if organization != nil
       render json: organization.employees
     else
-      render json: {error: "No organization found for id."}
+      render json: {error: "No organizations found for id."}
     end
   end
 end

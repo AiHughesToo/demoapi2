@@ -1,4 +1,4 @@
-class OrganizationController < ApplicationController
+class OrganizationsController < ApplicationController
 
   def show
 
@@ -7,7 +7,7 @@ class OrganizationController < ApplicationController
     if organization != nil
       render json: organization.as_json({include: [:employees, :locations, :location]})
     else
-      render json: {error: "No organization found for id."}
+      render json: {error: "No organizations found for id."}
     end
 
   end
