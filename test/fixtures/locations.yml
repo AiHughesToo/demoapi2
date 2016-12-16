@@ -4,8 +4,7 @@ one:
   title: MyString
   description: MyString
   target_page: MyString
-  latitude: MyString
-  float: MyString
+  latitude: 1.5
   longitude: 1.5
   organization_id: 1
 
@@ -13,7 +12,6 @@ two:
   title: MyString
   description: MyString
   target_page: MyString
-  latitude: MyString
-  float: MyString
+  latitude: 1.5
   longitude: 1.5
   organization_id: 1
