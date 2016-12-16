@@ -5,7 +5,7 @@ class OrganizationsController < ApplicationController
     organization = Organization.find_by(togglit_id: params[:togglit_id])
 
     if organization != nil
-      render json: organization.as_json({include: [:employees, :locations]})
+      render json: organization.as_json({include: [:employees, :locations, :events]})
     else
       render json: {error: "No organizations found for id."}
     end
