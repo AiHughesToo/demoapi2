@@ -4,7 +4,7 @@ class CreateLocations < ActiveRecord::Migration[5.0]
       t.string :title
       t.string :description
       t.string :target_page
-      t.string :latitude
+      t.float :latitude
       t.string :float
       t.float :longitude
       t.integer :organization_id
