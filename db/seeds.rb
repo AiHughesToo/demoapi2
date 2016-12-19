@@ -8,7 +8,7 @@
 
 kzoo = Organization.create(name: "KinderZoo", togglit_id: "KZOO", latitude: "38.205795", longitude: "-85.707249")
 
-kzoo.employees << Employee.create(first_name: "Lane", last_name: "Terry", title: "Director of Technical Operations", picture_url: "http://www.legitscoop.com/wp-content/uploads/2014/07/111.jpg", email: "emp.loyee@interapt.com")
+kzoo.employees << Employee.create(first_name: "Lane", last_name: "Terry", title: "Director of Technical Operations", picture_url: "http://media-cache-ak0.pinimg.com/736x/d0/11/cc/d011cc0221cafdcc4a18ed55732b032e.jpg", email: "emp.loyee@interapt.com")
 
 kzoo.employees << Employee.create(first_name: "Emp", last_name: "loyee", title: "Clerk", picture_url: "http://www.gainesville.tx.us/images/pages/N225/photo%20(2).jpg", email: "emp.loyee@interapt.com")
 
@@ -41,11 +41,11 @@ kzoo.employees << Employee.create(first_name: "Emp", last_name: "loyee12", title
 
 kzoo.locations << Location.create(title: "Louisville Zoo", description: "Front Gate", target_page: " ", latitude: 38.205795, longitude: -85.707249)
 
-kzoo.locations << Location.create(title: "The Bird Atrium", description: "We rock out with our birds out!", target_page: "RKAkzoCB53", latitude: 38.205918, longitude: -85.706384)
+kzoo.locations << Location.create(title: "The Bird Atrium", description: "The red-breasted geese and YOU!", target_page: "RKAkzoCB53", latitude: 38.205918, longitude: -85.706384)
 
-kzoo.locations << Location.create(title: "Gator Island", description: "Where the gators at?", target_page: "4mOwasZrOr", latitude: 38.205252, longitude: -85.703979)
+kzoo.locations << Location.create(title: "Gator Island", description: "Where the gators at?", target_page: "4mOwasZrOr", latitude: 38.205352, longitude: -85.704279)
 
-kzoo.locations << Location.create(title: "Fish Land", description: "Get Wet", target_page: "iGeY6Fe6yg", latitude: 38.206187, longitude: -85.702906)
+kzoo.locations << Location.create(title: "Fish Land", description: "Wonders of the underwater world.", target_page: "iGeY6Fe6yg", latitude: 38.206187, longitude: -85.702906)
 
 kzoo.locations << Location.create(title: "Elephant Zone", description: "In this section of the zoo, the Elephants stomp and play", target_page: "oUoIiRLiwv", latitude: 38.205859, longitude: -85.703270)
 
@@ -73,7 +73,7 @@ k911.locations << Location.create(title: "Pike County Humane Society", descripti
 k911.locations << Location.create(title: "Lawrence County Humane Society", description: "Lawrence County’s Humane Society", target_page: " ", latitude: 38.114254, longitude: -82.603212)
 
 
-k911.employees << Employee.create(first_name: "Lane", last_name: "Terry", title: "Director of Technical Operations", picture_url: "http://www.legitscoop.com/wp-content/uploads/2014/07/111.jpg", email: "emp.loyee@interapt.com")
+k911.employees << Employee.create(first_name: "Lane", last_name: "Terry", title: "Director of Technical Operations", picture_url: "http://twolittlecavaliers.com/wp-content/uploads/2011/05/dog-catcher.jpg", email: "emp.loyee@interapt.com")
 
 k911.employees << Employee.create(first_name: "Emp", last_name: "loyee", title: "Clerk", picture_url: "http://www.gainesville.tx.us/images/pages/N225/photo%20(2).jpg", email: "emp.loyee@interapt.com")
 
