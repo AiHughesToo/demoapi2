@@ -11,4 +11,20 @@ class OrganizationsController < ApplicationController
     end
 
   end
+
+  def create
+    @organization = Organization.new(org_params)
+    if @organization.save
+      render json: {notice: "Organization Created."}
+    else
+      render json: {error: "Failed to Create Organization"}
+    end
+
+  end
+
+  private
+  def org_params
+    params.permit("name", "togglit_id", "latitude", "longitude")
+  end
+
 end

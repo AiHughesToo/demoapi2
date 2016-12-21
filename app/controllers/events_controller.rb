@@ -3,7 +3,7 @@ class EventsController < ApplicationController
     organization = Organization.find_by(togglit_id: params[:togglit_id])
 
     if organization != nil
-      render json: organization.events
+      render json: organization.events, status: :ok
     else
       render json: {error: "organization id invalid or missing"}
     end

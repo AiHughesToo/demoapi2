@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get '/:togglit_id/employees' => 'employees#index', as: :employees_index
   get '/:togglit_id/locations' => 'locations#index', as: :locations_index
   get '/:togglit_id/events' => 'events#index', as: :events_index
-
+  post '/create' => 'organizations#create'
+  post '/:togglit_id/createemployee' => 'employees#create'
 end
