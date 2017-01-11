@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please note the Heroku deployment does not have the authentication feature added. Authentication was only added
+to the local project for traning. 
 
-Things you may want to cover:
 
-* Ruby version
+Using post man you can: 
+Create location
+POST  https://pure-waters-49466.herokuapp.com/KZOO/createlocation
 
-* System dependencies
+headers  content type  application/json
+Body 
+{
+	"title": "New Place",
+	"description": "Detailed informatin goes here.",
+	"target_page": "tfd",
+	"latitude": "37.8192653",
+	"longitude": "-82.7676313"
+}
 
-* Configuration
+Delete a location 
 
-* Database creation
+Delete  https://pure-waters-49466.herokuapp.com/KZOO/locations/11
 
-* Database initialization
+headers   content type   application/json
+body none
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
