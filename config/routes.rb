@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   put '/:togglit_id/employees/:id/' => 'employees#update'
   delete '/:togglit_id/locations/:id/' => 'locations#destroy'
   delete '/:togglit_id/employees/:id/' => 'employees#destroy'
+
+  post 'authenticate', to: 'authentication#authenticate'
 end
